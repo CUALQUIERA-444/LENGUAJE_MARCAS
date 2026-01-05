@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Validar formularios con HTML5 y CSS3</title>
+	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap" rel="stylesheet">
+	<style>
+	* {
+		margin:0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+	body {
+		font-family: 'Big Shoulders Stencil Display', cursive;
+		font-size:20px;
+		color:beige;
+		background-color: beige;
+	}
+	form {
+		margin:20px auto;
+		width: 50%;
+		height: 650px;
+		background-color: #805462;
+		padding: 10px;
+		border-radius:5px;
+	}
+	label {
+		position: relative;
+		float:left;
+		width: 30%;
+		height: 30px;
+	}
+	/*Así indicamos que solo para los input de tipo text*/
+	input[type=text],input[type=password] {
+		position: relative;
+		float:left;
+		width: 70%;
+		height: 30px;
+		border-radius:5px;
+		margin-bottom: 10px;
+	}
+	select {
+		width: 50%;
+		height: 30px;
+		border-radius:5px;
+	}
+	input[type=submit] {
+		position: relative;
+		float:left;
+		width: 50%;
+		height: 30px;
+		border-radius:5px;
+		text-align: center;
+	}
+	fieldset {
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+	legend {
+		text-align: center;
+		font-size: 24px;
+	}
+	</style>
+</head>
+<body>
+<form>
+	<fieldset>
+	<legend>Datos personales</legend>
+	  <label>Nombre:</label>
+	  <input type="text" name="nombre" placeholder="Escribe tu nombre" maxlength="12" required autofocus><br>
+	  <label>Apellido:</label>
+	  <input type="text" name="apellido" placeholder="Escribe primer apellido" required>
+	  <label>Contraseña:</label> <input type="password" name="psswd">			
+	</fieldset>	
+	<fieldset>
+	<legend>Preferencias coches</legend>
+		  ¿Qué prefieres?<br>
+		  <input type="checkbox" name="tipo" value="D" checked> Híbrido<br>
+		  <input type="checkbox" name="tipo" value="G"> Gasolina<br>
+		  <input type="checkbox" name="tipo" value="E"> Eléctrico<br><br>
+		  <textarea name="nombre" rows="4" cols="30">Cuéntanos algo sobre ti y los coches....</textarea> <br><br>
+		  Entre estas marcas de coche ¿Cúal eliges? <br>
+		  <select name="cars">
+			<option value="vl">Seat</option>
+			<option value="ty">Toyota</option>
+			<option value="ft">Fiat</option>
+			<option value="ad" selected>Audi</option>
+		  </select>
+	</fieldset>
+	<input type="submit" value="Enviar"><br><br>
+</form>
+</body>
+</html>

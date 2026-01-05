@@ -1,0 +1,67 @@
+/* CSS Document */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: #215968;
+	font:bolder 24px Calibri;	
+}
+#cabecera {
+	width:600px;
+	text-align:center;
+	border:5 outset #215968;
+	background:#B7DEE8;
+	color:#215968;	
+}
+#cuerpo {
+	background: #DBEEF4;
+	width:600px;
+    padding: 20px;
+}
+#cuerpo:hover {
+	margin-left: 60px;
+	background-color: aliceblue;
+}
+#contexto {
+	margin-top:30px;
+	background-color: #B7DEE8;
+	height:140px;
+	text-align: center;
+}
+#contexto h1 {
+		word-spacing: 20px;
+		text-decoration: overline;
+}
+h1 b {
+	color:#215968;
+	letter-spacing: 5px;
+}
+p b {
+	color:orangered;
+	text-decoration: line-through;
+}
+.enlaces {
+	font: italic 25px Calibri;
+    text-align:right;
+}
+.pais {
+	font:bold 20px Tahoma;
+    padding-left: 20px;
+	color:goldenrod;
+}
+a {
+	text-decoration:none;
+	font-size:30px;
+}
+a:link {
+	color:#31859C;
+}
+a:hover {
+	color:#DBEEF4;
+	background:#215968;
+}
+a:visited {
+	color:goldenrod;
+}

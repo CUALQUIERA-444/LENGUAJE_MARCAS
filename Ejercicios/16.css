@@ -1,0 +1,90 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+@font-face {
+    font-family:Fuente1;
+    src: url(Fuenteseimagenes/AllertaStencil.ttf);
+}
+@font-face {
+    font-family:Fuente2;
+    src: url(Fuenteseimagenes/KoHo.ttf);
+}
+body {
+    margin: 20px auto;
+    width:80%;
+    font-family: Fuente2;
+    font-size: 18px;
+    background-color: #e8e8e8;
+}
+h1 {
+    text-align: center;
+    width:100%;
+    height: 60px;
+    color: #e8e8e8;
+    padding-top: 10px;
+    font-family: Fuente1;
+    background-color: #5F060C;
+}
+.alineador {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.imagen {
+    text-align: center;
+    width:50%;
+    padding:30px;
+}
+.imagen img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.texto {
+    text-align: center;
+    width:50%;
+    padding:30px;
+}
+.texto h2{ 
+    text-align: center;
+    color:#5F060C;
+    font-family: Fuente2;
+}
+.formularios{
+    display:flex;
+    width: 100%;
+    height: 200px;
+}
+.formularios form{
+    width:50%;
+    text-align: center;
+}
+.formularios form fieldset {
+    padding-top:10px;
+    padding-bottom:40px;
+    height:200px;
+}
+.formularios form fieldset legend {
+    text-align:center;
+}
+.formularios form fieldset input {
+    height:30px;
+    width:200px;
+    margin-top: 10px;
+}
+.formularios form fieldset textarea {
+    height: 30px;
+    width:200px;
+    margin-top: 10px;
+}
+.pie {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    color: #e8e8e8;
+    background-color: #5F060C;
+}
+.pie i {
+    width:60px;
+}

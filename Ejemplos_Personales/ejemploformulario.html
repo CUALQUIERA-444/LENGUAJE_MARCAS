@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html lang = "es">
+        <head>
+            <meta charset = "UTF-8">
+        </head>
+    <body>
+        <h2>
+            FORMULARIO EJEMPLO
+        </h2>
+        <form>
+            <fieldset>
+            <label for ="nombre"> Nombre </label>
+            <input type = "text" name = "nombre" id="nombre" size ="20" maxlength="30" placeholder="nombre de usuario" required> <br>
+            <label for = "contra"> Contraseña </label>
+            <input type = "password" name = "contra" id = "contra" > <br>
+            <br>
+            <label for ="textarea"> Escribe algo sobre ti </label> <br>
+            <textarea name="sobreti" rows = "3" cols = "18" placeholder="Cuentanos algo"></textarea>
+            <br>
+            <input type = "radio" name ="valor" value="valorenviado" checked > Si
+            <input type = "radio" name = "valor" value ="valorenviado"> No       
+            <br>
+            <label> Elige opciones </label> <br>
+            <input type ="checkbox" name ="opciones" value = "opc1" checked  > opción1
+            <input type ="checkbox" name ="opciones" value = "opc2" checked > opción2
+              <input type ="checkbox" name ="opciones" value = "opc3" > opción3
+             <input type ="checkbox" name ="opciones" value = "opc4" > opción4 
+            <br>
+            <label> Elige opción 
+            </label>
+            <select name ="opcion2">
+                <option value="1"> opcion1</option>
+                <option value="2"> opcion2</option>
+                <option value= "3" selected> opcion3</option>
+            </select>
+            <br>
+            <input type = "submit" value = "Texto del botón"> 
+            <br>
+            <button type ="reset" value ="Texto del botón"> Texto del botón
+            </form>
+        </body>
+    </html>

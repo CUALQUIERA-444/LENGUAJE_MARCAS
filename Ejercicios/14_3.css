@@ -1,0 +1,104 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Mula;
+    src: url(Fuenteseimagenes/Muli-Regular.ttf);
+}
+body {
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    font-family:Mula;
+    background-color: #fdf5e6;
+}
+#encabezado {
+    text-shadow: -5px -5px 5px rgba(0,0,0,0.25);
+    width:500px;
+    height: 60px;
+    padding:10px;
+    color: #fdf5e6;
+    background-color: #83737d;
+    border-radius: 10px;
+    text-align: center;
+}
+.alinear {
+    display:flex;
+}
+#menu {
+    padding:10px;
+    background-color: #fdf5e6;
+    box-shadow: -5px -5px 15px rgba(0,0,0,0.8);
+    position: relative;
+    top:20px;
+    left: 30px;
+    width: 350px;
+    height: 200px;
+}
+#menu a {
+    display: block;
+    width:100%;
+    text-decoration: none;
+    background-color: #fdf5e6;
+    padding:10px;
+    color:#83737d;
+}
+#menu a:hover{
+    border-radius: 0px 30px 0px 0px;
+    background-color: #83737d;
+    color: #fdf5e6;
+}
+#derecha{
+    text-align:justify;
+    padding: 15px;
+    color: none;
+    position:relative;
+    top: 20px;
+    left: 60px;
+    width:350px;
+    border: 4px solid lightblue;
+     box-shadow: -5px -5px 15px rgba(0,0,0,0.8);
+     background-color: #fdf5e6;
+}
+.imagenes{
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+    width: 800px;
+    height: 300px;
+    box-shadow: -5px -5px 15px rgba(0,0,0,0.8);
+}
+.imagenes img  {
+   margin-left: 50px;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    width: 300px;
+    height: 200px;
+    border-radius:10px;
+}
+.Pie {
+    position: relative;
+    left:110px;
+    background-color: #fdf5e6;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 10px;
+    padding:15px;
+    width:600px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 15px rgba(0,0,0,0.8);
+}
+.Pie a{
+    text-decoration: none;
+    color:#83737d;
+}
+.Pie a:hover {
+    border-radius: 0px 30px 0px 0px;
+    background-color: #83737d;
+    color: #fdf5e6;
+}

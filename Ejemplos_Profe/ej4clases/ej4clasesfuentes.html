@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Fuentes</title>
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+	<style>
+    @import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
+	@font-face {
+	   font-family: mifuente;
+	   src: url(Sansation_Regular.ttf);
+	   font-weight: bold;
+	}
+
+	body {
+		font-family:mifuente;
+		font-size:100%; /*Aquí defino el tamaño de la fuente. Si indico 100% es el tamaño estándar que tenga esa fuente*/
+		}
+	.tam1 {
+		font-size:1.5em; /*El tamaño es 1.5 del tamaño estándar o del indicado para el documento*/
+	}
+	.tam2 {
+		font-size:3em;
+		color:hotpink;
+	}
+	.tam3 {
+		font-size:0.5em /*Es la mitad del estándar*/
+	}
+	.fuentemalsava {
+        font-family: 'Mansalva', cursive;
+		font-size: 18px;
+		color:dodgerblue;
+	}	
+	.fuentegoogle {
+        font-family: 'Notable', sans-serif;
+		font-weight: 600;
+		font-style: italic;
+	}
+	</style>
+</head>
+<body>
+	En este texto vamos a usar un tipo de letra que importamos y subimos al servidor.<br>
+	<p class="tam1">El texto es 1.5 veces mayor</p>
+	<p class="tam2">El texto es 2 veces mayor</p>
+	<p class="tam3">El texto es la mitad del indicado para la página</p>
+	<p class="fuentemalsava">Texto con fuente malsava de google fonts</p>
+	<p class="fuentegoogle">Otra forma de importar fuentes de google</p>
+</body>
+</html>
