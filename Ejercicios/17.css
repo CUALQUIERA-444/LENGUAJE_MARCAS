@@ -1,0 +1,19 @@
+* {
+margin: auto;
+padding: 0;
+box-sizing: border-box;
+}
+@font-face {
+    font-family: Raleway;
+    src: url("Fuenteseimagenes/Raleway.ttf");
+}
+@font-face {
+    font-family: Sansita;
+    src: url("Fuenteseimagenes/Sansita-Regular.ttf");
+}
+.Cabecera{
+    background-color: #c070af;
+    color:#fff1ff;
+    height: 150px;
+    font-size: 20px;
+}
