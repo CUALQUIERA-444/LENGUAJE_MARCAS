@@ -1,19 +1,31 @@
 * {
-margin: auto;
+margin-left: 100px;
 padding: 0;
 box-sizing: border-box;
 }
 @font-face {
-    font-family: Raleway;
+    font-family:Raleway;
     src: url("Fuenteseimagenes/Raleway.ttf");
 }
 @font-face {
-    font-family: Sansita;
+    font-family:Sansita;
     src: url("Fuenteseimagenes/Sansita-Regular.ttf");
 }
-.Cabecera{
+#Cabecera{
+    text-align: center;
     background-color: #c070af;
     color:#fff1ff;
-    height: 150px;
+    font-family:Sansita;
     font-size: 20px;
+    height: 150px;
+
 }
+#Cabecera img {
+    padding-top: 20px;
+    height:90px;
+    width:90px;
+}
+#Cabecera h3 {
+    padding-bottom: 50px;
+}
+
