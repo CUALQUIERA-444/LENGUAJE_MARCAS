@@ -1,0 +1,162 @@
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: Muli;
+}
+@font-face {
+    font-family:Muli ;
+    src: url("fonts/Muli.ttf");
+}
+@font-face {
+    font-family: Dancing;
+    src: url("fonts/DancingScript.ttf");
+}
+body {
+width:100%;
+height: 2000px;
+}
+.encabezado {
+    color: #38edf0;
+    height: 20%;
+    background-image: url("img/fondo1.jpg");
+    background-size: cover;
+}
+#menu {
+    display:inline-flex;
+    width: 50%;
+    margin-top: 50px;
+    height: 20px;
+    margin-left: 30px;
+}
+#menu a {
+    width: 25%;
+    height: 100%;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+#menu :hover {
+    text-decoration: solid;
+    color:#38edf0;
+}
+.titulo {
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 10%;
+}
+.titulo h1 {
+    font-family:Dancing;
+}
+.titulo p {
+  margin-top: 20px;
+}
+.centro1 {
+    border-top: 10px outset #38edf0;
+    height: 25%;
+    margin-bottom: 5%;
+}
+.centro1 form{
+    background-color: #0c6770;
+    color: white;
+    margin-top: 5%;
+    margin-left: 10%;
+    height: 90%;
+    width: 80%;
+    text-align: right;
+}
+.centro1 form fieldset{
+    margin-top: 10px;
+    padding: 20px;
+    width: 80%;
+    margin-left: 100px;
+    padding: 30px;
+    border:  2px solid white;
+}
+.centro1 form input{
+    width: 60%;
+    height: 30px;
+    border-radius:2px;
+    margin-top: 5px;
+    font-family: Muli;
+}
+.centro1 form select {
+     width: 60%;
+    height: 30px;
+    border-radius:2px;
+    margin-top: 5px;
+    font-family: Muli;
+}
+.centro1 form textarea{
+     width: 60%;
+    height: 30px;
+    border-radius:2px;
+    margin-top: 5px;
+    font-family: Muli;
+}
+
+#enviar input{
+    background-color: white;
+    font-family: muli;
+}
+.centro2{
+    display: flex;
+    margin-left: 5%;
+    height: 30%;
+    border-top: 10px outset  #38edf0;
+    margin-right: 10px;
+}
+#Marco1 {
+    margin-left: 5px;
+    width:40%;
+    height: 50%;
+    font-size: 250%;
+    padding-top: 120px;
+    background-color: #0c6770;
+    background-size: cover;
+    text-align: center;
+    background-image: url(img/ashtanga.jpg);
+    border-radius: 5px;
+    box-shadow: 10px 10px 2px #38edf0;
+}
+#Marco1 a{
+    color:#38edf0;
+    text-decoration: none;
+    font-family: Dancing;
+}
+#Marco1 a:hover {
+    color: #0c6770;
+    background-color: #38edf0;
+    padding: 20px;
+}
+#Marco2 {
+    width:30%;
+    height: 50%;
+    margin-right: 10px;
+    font-size: 250%;
+    margin-top:20%;
+    padding-top: 120px;
+    background-color: #0c6770;
+    background-size: cover;
+    text-align: center;
+    background-image: url(img/vinyasha.jpg);
+    border-radius: 5px;
+    box-shadow: 10px 10px 2px #38edf0;
+}
+#Marco2 a{
+    color:#38edf0;
+    text-decoration: none;
+    font-family: Dancing;
+}
+#Marco2 a:hover {
+    color: #0c6770;
+    background-color: #38edf0;
+    padding: 20px;
+}
+.centro3{
+    background-size: cover;
+    border:10px outset #0c6770;
+    background-image:url ("img/fondo1.jpg")
+}
