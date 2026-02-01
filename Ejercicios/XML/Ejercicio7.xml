@@ -4,7 +4,8 @@
         <vivienda metros_cuadrados="57" orientacion="Este" residentes="3">
             <numero> 1 </numero>
             <residentes>
-                <menores> &lt;18 
+                <menores>
+                    <rango>&lt;18</rango>
                     <residente fecha_alta="20-03-2026" DNI_tutor="27272913D">
                         <nombre> Ramiro Gonzalez Eugenio </nombre>
                         <DNI> 03465757D </DNI>
@@ -24,7 +25,7 @@
         <vivienda metros_cuadrados="42" orientacion="Norte" residentes="3">
             <numero> 2 </numero>
             <residentes>
-                <menores> 
+                <menores>
                     <rango>&lt;18</rango>
                     <residente fecha_alta="02-08-2016" DNI_tutor="12456389Y">
                         <nombre> Jim Eustaquio Uva </nombre>
@@ -49,7 +50,7 @@
         <vivienda metros_cuadrados="41" orientacion="Oeste" residentes="2">
             <numero> 1 </numero>
             <residentes>
-                <mayores> 
+                <mayores>
                     <rango>&gt;18</rango>
                     <residente fecha_alta="20-01-2010">
                         <nombre> Jimmy Maclovin </nombre>
@@ -65,7 +66,7 @@
         <vivienda metros_cuadrados="40" orientacion="Norte" residentes="1">
             <numero> 2 </numero>
             <residentes>
-                <mayores> 
+                <mayores>
                     <rango>&gt;18</rango>
                     <residente fecha_alta="10-11-2014">
                         <nombre> Jaime Quiroga Chip </nombre>
