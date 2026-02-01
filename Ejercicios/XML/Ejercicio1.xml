@@ -1,0 +1,39 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<!--EJERCICIO1
+Diseña un documento XML para gestionar un sistema de envíos. El pedido pertenece
+a 'Inmaculada García'. La entrega se realizará en calle Valverde 4, tercer piso, letra B
+Debes separar la dirección en elementos (vía, número y datos de planta).
+Además, el sistema debe permitir registrar la cantidad de productos (en este caso, 1
+bicicleta) y diferenciar entre la fecha de pedido y la fecha de entrega prevista (19-
+01-2026)."
+!-->
+
+<almacen>
+    <nombre>Inmaculada García</nombre>
+    <direccion>
+        <via> Valverde </via>
+        <numero> 4 </numero>
+        <planta> Tercer piso B</planta>
+    </direccion>
+    <producto cantidad = "1"> Bicicleta </producto>
+    <fechas>
+        <pedido> 11-01-2026 </pedido>
+        <entrega> 19-01-2026 </entrega>
+    </fechas>
+</almacen>
+
+<!--EJERCICIO3
+!-->
+
+<!--EJERCICIO4
+-->
+
+<!--EJERCICIO5
+!-->
+
+<!--EJERCICIO6
+!-->
+<!--EJERCICIO7
+!-->
+<!--EJERCICIO8
+!-->

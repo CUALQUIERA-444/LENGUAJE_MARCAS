@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urbanizacion edificios="2">
+    <edificio letra="A" ano_construccion="2018" ascensor="no" viviendas="2">
+        <vivienda metros_cuadrados="57" orientacion="Este" residentes="3">
+            <numero> 1 </numero>
+            <residentes>
+                <menores> &lt;18 
+                    <residente fecha_alta="20-03-2026" DNI_tutor="27272913D">
+                        <nombre> Ramiro Gonzalez Eugenio </nombre>
+                        <DNI> 03465757D </DNI>
+                    </residente>
+                    <residente fecha_alta="21-02-2020" DNI_tutor="12647894F">
+                        <nombre> Juanito Perez Hernandez</nombre>
+                        <DNI> 23456178R </DNI>
+                    </residente>
+                </menores>
+                <mayores> &gt;18 <residente fecha_alta="20-10-2010">
+                        <nombre> Ferly Gonzalez Durand </nombre>
+                        <DNI> 13738327E </DNI>
+                    </residente>
+                </mayores>
+            </residentes>
+        </vivienda>
+        <vivienda metros_cuadrados="42" orientacion="Norte" residentes="3">
+            <numero> 2 </numero>
+            <residentes>
+                <menores> &lt;18 
+                    <residente fecha_alta="02-08-2016" DNI_tutor="12456389Y">
+                        <nombre> Jim Eustaquio Uva </nombre>
+                        <DNI> 82637273A </DNI>
+                    </residente>
+                </menores>
+                <mayores> &gt;18 
+                    <residente fecha_alta="02-04-2015">
+                        <nombre> Javier Bola Uva </nombre>
+                        <DNI> 23428134T </DNI>
+                    </residente>
+                    <residente fecha_alta="25-02-2020">
+                        <nombre> Juanito Perez Hernandez</nombre>
+                        <DNI> 77765331B</DNI>
+                    </residente>
+                </mayores>
+            </residentes>
+        </vivienda>
+    </edificio>
+    <edificio letra="B" ano_construccion="2012" ascensor="si" viviendas="2">
+        <vivienda metros_cuadrados="41" orientacion="Oeste" residentes="2">
+            <numero> 1 </numero>
+            <residentes>
+                <mayores> &gt;18  
+                    <residente fecha_alta="20-01-2010">
+                        <nombre> Jimmy Maclovin </nombre>
+                        <DNI> 21342839D </DNI>
+                    </residente>
+                    <residente fecha_alta="10-08-2012">
+                        <nombre> Edudardo Rey Fernandez </nombre>
+                        <DNI> 12848394D </DNI>
+                    </residente>
+                </mayores>
+            </residentes>
+        </vivienda>
+        <vivienda metros_cuadrados="40" orientacion="Norte" residentes="1">
+            <numero> 2 </numero>
+            <residentes>
+                <mayores> &gt;18 
+                    <residente fecha_alta="10-11-2014">
+                        <nombre> Jaime Quiroga Chip </nombre>
+                        <DNI> 12345678A </DNI>
+                    </residente>
+                </mayores>
+            </residentes>
+        </vivienda>
+    </edificio>
+</urbanizacion>
