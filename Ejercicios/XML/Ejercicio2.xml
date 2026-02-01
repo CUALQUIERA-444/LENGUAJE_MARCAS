@@ -3,13 +3,13 @@
 !--> 
 <animales>
     <animal medio="terreste"> <!-- Recomendable no dejar espacios-->
-        <nombre> Gato </nombre>
-        <patas> 4 </patas>
-        <peligro> No </peligro>
+        <nombre>Gato</nombre>
+        <patas>4</patas>
+        <peligro>No</peligro>
     </animal>
     <animal medio="acuatico"> <!-- Recomendable no dejar espacios-->
-        <nombre> Pez </nombre>
-        <patas> 0 </patas>
-        <peligro> No </peligro>
+        <nombre>Pez</nombre>
+        <patas>0</patas>
+        <peligro>No</peligro>
     </animal>
 </animales>

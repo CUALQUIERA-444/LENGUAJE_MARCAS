@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--<?xml-stylesheet type="text/css" href="estilo-animales.css"?>!--> <!--Ejemplo de adjuntacion de un css a un xml<-->
 <mensaje>
-    <
+    <remitente>
+        <nombre>Alfredo Benito</nombre>
+        <email>alfredben@gmail.com</email>
+        <asunto> Hola Ana </asunto>
+        <br> </br> <!-- se permite esto pero chrome no lo detecta por lo que no sirve demasiado!-->
+        <!--XML toma esto como una nueva etiqueta creada-->
+        <!--Pero los saltos normales funcionan-->
+    
+        <parrafo> 
+             <linea>Hola ¿que tal?</linea>
+             <linea>Hace mucho tiempo que no escribes. A ver si llamas y quedamos pronto</linea>
+             <linea>Un saludo.</linea>
+            </parrafo>
+    </remitente>
+    <destinatario>
+        <nombre>Ana Rodríguez</nombre>
+        <email>arodríguez@gmail.com</email>
+    </destinatario>
 </mensaje>

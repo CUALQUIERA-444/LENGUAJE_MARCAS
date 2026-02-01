@@ -24,13 +24,15 @@
         <vivienda metros_cuadrados="42" orientacion="Norte" residentes="3">
             <numero> 2 </numero>
             <residentes>
-                <menores> &lt;18 
+                <menores> 
+                    <rango>&lt;18</rango>
                     <residente fecha_alta="02-08-2016" DNI_tutor="12456389Y">
                         <nombre> Jim Eustaquio Uva </nombre>
                         <DNI> 82637273A </DNI>
                     </residente>
                 </menores>
-                <mayores> &gt;18 
+                <mayores>
+                    <rango>&gt;18</rango>
                     <residente fecha_alta="02-04-2015">
                         <nombre> Javier Bola Uva </nombre>
                         <DNI> 23428134T </DNI>
@@ -47,7 +49,8 @@
         <vivienda metros_cuadrados="41" orientacion="Oeste" residentes="2">
             <numero> 1 </numero>
             <residentes>
-                <mayores> &gt;18  
+                <mayores> 
+                    <rango>&gt;18</rango>
                     <residente fecha_alta="20-01-2010">
                         <nombre> Jimmy Maclovin </nombre>
                         <DNI> 21342839D </DNI>
@@ -62,7 +65,8 @@
         <vivienda metros_cuadrados="40" orientacion="Norte" residentes="1">
             <numero> 2 </numero>
             <residentes>
-                <mayores> &gt;18 
+                <mayores> 
+                    <rango>&gt;18</rango>
                     <residente fecha_alta="10-11-2014">
                         <nombre> Jaime Quiroga Chip </nombre>
                         <DNI> 12345678A </DNI>
